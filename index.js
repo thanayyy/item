@@ -26,7 +26,7 @@ const Item = sequelize.define("item",{
         type: Sequelize.CHAR(20),
         allowNull: false // have to        
     },
-    Value : {
+    Price : {
         type: Sequelize.INTEGER,
         allowNull: false // have to
     }  
